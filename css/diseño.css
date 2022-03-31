@@ -1,0 +1,305 @@
+
+html{
+    font-size: 62,5%; 
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr ; 
+    /*grid-template-rows: 0.2fr 0.8fr 2.3fr 0.2fr; */
+    gap: 10px 0px; 
+    grid-template-areas: 
+    "header"
+    "quienesSomos"
+    "equipoTrabajo"
+    "footer"; 
+}
+
+/*Header*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #6441a4ff;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+/*Diseño Index*/
+
+.quienesSomosInf {
+    background-color: #bdbdbdff;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 0 50px;
+}
+
+.quienesSomosInf img {
+    width: 700px;
+    height: 500px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 60px;
+    padding-right: 20px;
+}
+
+.equipoTrabajoInf{
+    display: flex;
+    justify-content: center;
+    align-items:center
+    
+}
+
+.videoVimeo {
+    display: flex;
+    margin-left: 5px;
+}
+
+
+
+/*Diseño Nosotros*/
+.container {
+    display: grid; 
+    grid-template-columns: 1fr ; 
+    /*grid-template-rows: 0.2fr 0.8fr 2.3fr 0.2fr; */
+    gap: 10px 0px; 
+    grid-template-areas: 
+    "header" /*General, aplica a todos*/
+    "unPocoNosotros"
+    "calidadContenido"
+    "footer"; /*General, aplica a todos*/
+}
+
+.unPocoNosotrosInf{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items:flex-start;
+    padding: 0 50px;
+}
+
+.unPocoNosotrosInf img{
+    width: 700px;
+    height: 500px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 60px;
+    padding-right: 20px;
+}
+
+.unPocoNosotrosInf {
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+.calidadContenidoInf{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items:flex-start;
+    padding: 0 50px;
+}
+
+.calidadContenidoInf{
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+
+/* Grid y FlexBox*/
+/*Index Grid y Flex*/
+
+.header {
+    grid-area: header; }
+
+
+.quienesSomos { 
+    grid-area: quienesSomos;
+    
+}
+
+.nuestrosEquipos {
+    grid-area: nuestrosEquipos; }
+
+
+.equipoDeTrabajo { 
+    grid-area: equipoDeTrabajo; }
+
+
+.footer { 
+    grid-area: footer; }
+
+/* Nosotros Grid y Flex*/
+
+.unPocoNosotros{
+    grid-area: unPocoNosotros;
+}
+
+.menu{
+    grid-area: header;
+    color: #ffffffff;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;    
+    
+}    
+
+
+.logoIndex{
+    justify-self: flex-start;
+    flex-direction: row;
+    height: 15vh;
+    width: auto;
+}
+
+
+.menu li a{
+    text-decoration: none;
+}
+
+.titulosGenerales {
+    font-family: 'Calistoga', cursive;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+/*Media Queries*/
+
+
+@media screen and (max-width: 1024px){
+    /*Aspectos Generales*/
+
+    .menu{
+    font-size: 22px;
+    }
+
+    .titulosGenerales{
+        font-size: 25px;    
+    }
+
+    /*Indes*/
+    .quienesSomosInf img{
+        width: 500px;
+        height: 300px;
+    }
+
+    .quienesSomosInf p{
+        font-size: 20px;
+    }
+
+    .equipoTrabajoInf p{
+        font-size: 20px;
+    }
+
+    .videoVimeo {
+        width: 550px;
+        height: 350px;
+        padding-top: 5px;
+    }
+
+/* Seccion Nosotros*/
+
+    .unPocoNosotrosInf img{
+        width:550px ;
+        height: 350px;
+        padding-top: 20px;
+    }
+
+    .unPocoNosotrosInf p{
+        font-size: 20px;
+    }
+
+    .calidadContenidoInf p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    /*Aspectos Generales*/
+    
+    .menu{
+    font-size: 17px;
+    }
+
+    .titulosGenerales{
+        font-size: 20px;
+    }
+
+    .quienesSomosInf img{
+        width: 400px;
+        height: 200px;
+    }
+
+    .quienesSomosInf p{
+        font-size: 18px;
+    }
+
+    .equipoTrabajoInf p{
+        font-size: 18px;
+    }
+
+    .videoVimeo {
+        width: 450px;
+        height: 250px;
+        padding-top: 5px;
+    }
+
+/* Seccion Nosotros*/
+
+    .unPocoNosotrosInf img{
+        width:450px ;
+        height: 250px;
+        padding-top: 20px;
+    }
+
+    .unPocoNosotrosInf p{
+        font-size: 18px;
+    }
+
+    .calidadContenidoInf p{
+        font-size: 18px;
+    }
+
+    .calidadContenidoInf iframe{
+        width: 450px;
+        height: 250px;
+    }
+
+
+}
+
+
+
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+p{
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+    .footer {
+    background-color: #bdbdbdff;
+    align-items: center;
+
+}

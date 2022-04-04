@@ -22,7 +22,7 @@ nav{
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    background-color: #6441a4ff;
+    background-image: linear-gradient(to right, #1488CC, #2b32b2);
 }
 
 ul {

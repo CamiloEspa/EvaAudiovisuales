@@ -1,18 +1,6 @@
 
 html{
-    font-size: 62,5%; 
-}
-
-.container {
-    display: grid; 
-    grid-template-columns: 1fr ; 
-    /*grid-template-rows: 0.2fr 0.8fr 2.3fr 0.2fr; */
-    gap: 10px 0px; 
-    grid-template-areas: 
-    "header"
-    "quienesSomos"
-    "equipoTrabajo"
-    "footer"; 
+    font-size: 62,5%;
 }
 
 /*Header*/

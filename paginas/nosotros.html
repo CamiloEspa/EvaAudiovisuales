@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,8 @@
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> <!--Link de Bootstrap-->
+
+<link rel="stylesheet" href="../css/estilos.css"> <!--Vinculos de diseños con SASS-->
     
 <link rel="stylesheet" href="../css/diseño.css"> <!--vinculo en el diseño Css-->
 
@@ -57,8 +59,20 @@
 </header>
 
 <main>
-    <section class="unPocoNosotros">
+
+    <section>
+        <div class="container w-50 m-auto text-center pt-4" id="equipo">
+            <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-primary">resultados Grandes</span>.</h1>
+            <p class="fs-4 ">Siempre buscamos las personas adecuadas para que trabajen con nosotros. Si te sientes listo para este reto, te esperamos para que te unas a nosotros.</p>
+        </div>
     
+        <div class="mt-5 text-center">
+            <img id="imgEquipo" src="../multimedia/Equipo.jpg" alt="equipo">
+        </div>
+    </section>
+
+    
+    <section class="unPocoNosotros">
         <h2 class="titulosGenerales">Un poco de nosotros</h2>
         <div class="unPocoNosotrosInf">
 
@@ -68,14 +82,41 @@
         </section>
 
     <section class="calidadContenido">
-    <h2 class="titulosGenerales">Calidad de nuestro contenido</h2>
+    <h2 class="titulosGenerales">Cómo se conforma nuestro equipo</h2>
         <div class="calidadContenidoInf">
-
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum ex aliquam libero qui tenetur. Nihil debitis est aut natus ad, eos exercitationem obcaecati ut distinctio magni velit temporibus, nostrum dolores molestiae tempora accusamus corporis libero expedita laborum non consectetur animi totam odit vero? Vitae corporis quod modi fugiat provident accusamus, optio aliquam illo magnam dicta ut officiis dolor incidunt? Alias, nobis, sequi recusandae explicabo aliquid molestiae inventore molestias, omnis obcaecati vero quibusdam modi maxime. Magni nisi voluptates eos amet quas, nesciunt harum ullam cupiditate quisquam dolores corporis! Libero consectetur fuga quisquam praesentium dolore temporibus consequatur sequi, molestiae dolor, doloremque non autem! Autem at facere itaque fugiat iste dolores et perspiciatis repudiandae qui ab iure voluptas officia quo, rerum quod! Quos possimus sequi iusto dolorum, ipsa quaerat exercitationem laudantium magnam similique.</p>
             
-            <div class="videoVimeo"><iframe src="https://player.vimeo.com/video/693826269?h=ce13225ebb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="top:0;left:0;width:550px;height:350px;" title="EVA"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <div class="videoVimeo"><iframe src="https://player.vimeo.com/video/693826269?h=ce13225ebb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="width:40rem;height:30rem;" title="EVA"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
         </div>
     </section>
+
+
+    <div class="row" id="row-servicios">
+        <div class="container">
+            <div class="row flex-row-reverse">
+                <div class="col-md-5 text-center">
+                    
+                    <img src="../multimedia/Nos1.jpg" alt="Eva">
+                </div>
+                <div class="col-md-7 mt-4">
+
+                    <h2 class="titulosGenerales title-color mb-3">Objetivos en proceso creativo
+                    </h2>
+                    <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering
+                        animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger
+                        omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil
+                        stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated
+                        corpse.</p>
+                    <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering
+                        animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger
+                        omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil
+                        stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated
+                        corpse.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </main>
 
 <footer class="pie-pagina">

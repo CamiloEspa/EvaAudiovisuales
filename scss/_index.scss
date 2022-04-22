@@ -1,5 +1,28 @@
-.quienesSomos{
 
-    background-color: red
+.carruselTamaño{
+    height: 50rem;
 }
 
+.textoPrimarioColor{
+    color: rgba(80,138,131,1);
+
+}
+
+#row-cursos{
+    background-color: #48d0bf;
+    img{
+        width: 15rem;
+        height: 15rem;
+    }
+    p{
+        color: aliceblue;
+    }
+}
+
+.row{
+    margin: 0;
+}
+
+#row-cursos img{
+    border-radius: 100%;
+}

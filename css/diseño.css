@@ -48,24 +48,21 @@ ul {
 }
 
 .quienesSomosInf img {
-    width: 700px;
-    height: 500px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    padding-right: 20px;
+    width: 30rem;
+
 }
 
 .equipoTrabajoInf{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items:center
     
 }
 
+
 .videoVimeo {
     display: flex;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 
@@ -82,12 +79,20 @@ ul {
 }
 
 .unPocoNosotrosInf img{
-    width: 700px;
-    height: 500px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-top: 60px;
-    padding-right: 20px;
+    max-width: 20rem;
+}
+
+
+.objetivoCreativo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items:center;
+}
+
+.objetivoCreativo img{
+    width: 20rem;
+    
 }
 
 .unPocoNosotrosInf {
@@ -133,8 +138,7 @@ ul {
     max-width: 1200px;
     margin: auto;
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:50px;
+    grid-template-columns: repeat(2, 1fr);
     padding: 20px 0px;
 }
 .pie-pagina .grupo-1 .box figure{
@@ -182,6 +186,7 @@ ul {
 }
 
 .titulosGenerales {
+    margin-top: 15px;
     font-family: 'Calistoga', cursive;
     text-align: center;
     font-size: 2rem;
@@ -204,14 +209,11 @@ ul {
     }
 
     /*Indes*/
-    .quienesSomosInf img{
-        width: 500px;
-        height: 300px;
-    }
 
     .quienesSomosInf p{
         font-size: 20px;
     }
+
 
     .equipoTrabajoInf p{
         font-size: 20px;
@@ -226,8 +228,6 @@ ul {
 /* Seccion Nosotros*/
 
     .unPocoNosotrosInf img{
-        width:550px ;
-        height: 350px;
         padding-top: 20px;
     }
 
@@ -386,7 +386,7 @@ h2 {
 
 p{
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: 'Muli',sans-serif;
 }
 

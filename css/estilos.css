@@ -6,10 +6,10 @@
   color: #508a83; }
 
 #row-cursos {
-  background-color: #48d0bf; }
+  background-color: #68606f; }
   #row-cursos img {
-    width: 15rem;
-    height: 15rem; }
+    width: 12rem;
+    height: 12rem; }
   #row-cursos p {
     color: aliceblue; }
 
@@ -25,21 +25,24 @@
   padding-bottom: 100px; }
 
 #row-servicios img {
-  height: 30rem; }
+  max-height: 25rem;
+  display: flex;
+  margin-top: 120px; }
 
-.videoYoutube {
-  height: 850px;
-  width: 600px; }
+.videoVid {
+  display: flex;
+  height: 750px;
+  width: 500px; }
 
 .textoNuestroEquipo {
   text-align: center;
   padding: 10px;
-  color: #616060; }
+  color: #414141; }
 
 .descripcion {
   text-align: center;
   padding: 5px 25px;
-  color: #353535; }
+  color: #1a1a1a; }
 
 .card {
   width: 100%;
@@ -65,6 +68,7 @@
 
 .imgCards {
   width: 140px;
+  height: 140px;
   border-radius: 80%;
   box-shadow: 2px 2px 5px #d8d8d8; }
 
@@ -103,12 +107,50 @@ hr {
     padding-top: 50px; } }
 
 /*Media Nosotros*/
+@media (max-width: 1200px) {
+  #intro, #equipo {
+    width: 90% !important;
+    margin: auto; } }
+
+@media (max-width: 1024px) {
+  #img-equipo {
+    max-height: 25rem !important; } }
+
 @media (max-width: 768px) {
   #intro, #equipo {
-    width: 100% !important;
+    width: 90% !important;
     margin: auto; }
-    #intro p, #equipo p {
-      display: none; }
-  #imgEquipo {
-    max-height: 20rem !important;
-    width: 90%; } }
+  #img-equipo {
+    max-height: 18rem !important;
+    width: 80%; } }
+
+/* Un poco nosotros*/
+@media (max-width: 576px) {
+  .unPocoNosotrosInf img {
+    max-width: 18rem; } }
+
+/* Objetivos proceso creativo*/
+@media (max-width: 768px) {
+  .imgNos {
+    width: 20rem; } }
+
+@media (max-width: 576px) {
+  .imgNos {
+    width: 18rem; } }
+
+@media (max-width: 1440px) {
+  .imgNos {
+    width: 18rem; } }
+
+/* Index */
+@media (max-width: 1440px) {
+  .quienesSomosInf img {
+    width: 25rem; } }
+
+@media (max-width: 1024px) {
+  .quienesSomosInf img {
+    width: 20rem; } }
+
+@media (max-width: 768px) {
+  .quienesSomosInf img {
+    width: 10rem; } }

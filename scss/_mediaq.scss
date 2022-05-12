@@ -13,22 +13,83 @@ width:90%;
 margin:auto;
 padding-top:50px;    
 }
+
 }
 
 /*Media Nosotros*/
+@media (max-width:1200px){
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+}
+
+@media (max-width: 1024px){
+
+    #img-equipo{
+        max-height: 25rem !important;
+        
+    }
+}
+
 @media (max-width:768px) {
 
     #intro, #equipo{
-        width:100% !important;
+        width:90% !important;
         margin:auto;
-        p{
-            display: none;
-        }
     }
 
     
-    #imgEquipo{
-        max-height:20rem !important;
-        width:90%;
+    #img-equipo{
+        max-height:18rem !important;
+        width:80%;
+    }
+    }
+
+/* Un poco nosotros*/
+@media (max-width:576px){
+.unPocoNosotrosInf img{
+        max-width: 18rem;
+
+
+    }
+}
+/* Objetivos proceso creativo*/
+
+@media (max-width:768px) {
+    .imgNos{
+        width: 20rem;
+    }
+}
+
+@media (max-width:576px) {
+    .imgNos{
+        width: 18rem;
+    }
+}
+
+@media (max-width:1440px) {
+    .imgNos{
+        width: 18rem;
+    }
+}
+
+/* Index */
+
+@media (max-width:1440px){
+    .quienesSomosInf img{
+        width: 25rem;
+    }
+}
+
+@media (max-width:1024px){
+    .quienesSomosInf img{
+        width: 20rem;
+    }
+}
+
+@media (max-width:768px){
+    .quienesSomosInf img{
+        width: 10rem;
     }
 }

@@ -93,3 +93,11 @@ padding-top:50px;
         width: 10rem;
     }
 }
+
+/* Media queries imagen proyectos*/
+@media (max-width:576px) { 
+.titulosGeneralesProImg img{
+
+    max-height: 15px;
+}
+}

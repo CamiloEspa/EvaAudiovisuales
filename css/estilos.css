@@ -34,6 +34,9 @@
   height: 750px;
   width: 500px; }
 
+.titulosGeneralesProimg img {
+  width: 20px; }
+
 .textoNuestroEquipo {
   text-align: center;
   padding: 10px;
@@ -154,3 +157,8 @@ hr {
 @media (max-width: 768px) {
   .quienesSomosInf img {
     width: 10rem; } }
+
+/* Media queries imagen proyectos*/
+@media (max-width: 576px) {
+  .titulosGeneralesProImg img {
+    max-height: 15px; } }
